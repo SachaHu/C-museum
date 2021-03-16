@@ -7,11 +7,11 @@ namespace Musee_api.Models
 {
     public class User
     {
-        public int id;
-        public string usename;
-        public string email;
-        public string password;
-
+        public int Id;
+        public string Username;
+        public string Email;
+        public string Password;
+        public virtual ICollection<Activity> Activities { get; set; }
 
     }
 }

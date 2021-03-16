@@ -7,11 +7,13 @@ namespace Musee_api.Models
 {
     public class Exhibit
     {
-        public int id { get; set; }
-        public string name { get; set; }
-        public string description { get; set; }
-        public float size_XF { get; set; }
-        public float size_Y { get; set; }
-        public float size_Z {get;set;}
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public float SizeX { get; set; }
+        public float SizeY { get; set; }
+        public float SizeZ {get;set;}
+        public Slot Slot { get; set; }
+        public virtual ICollection<Tag> Tags { get; set; }
     }
 }
