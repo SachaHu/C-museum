@@ -35,6 +35,7 @@ namespace MuseeApi.Data
         public DbSet<ExhibitTag> ExhibitTags { get; set; }
         public DbSet<AreaActivity> AreaActivities { get; set; }
         public DbSet<UserActivity> UserActivities { get; set; }
+        public DbSet<User> Users { get; set; }
 
     }
 }
