@@ -7,11 +7,18 @@ namespace Musee_api.Models
 {
     public class Slot
     {
-        public int id { get; set; }
-        public int number { get; set; }
-        public float size_X { get; set; }
-        public float size_Y { get; set; }
-        public float size_Z { get; set; }
+        public int Id { get; set; }
+        public int Number { get; set; }
+        public float SizeX { get; set; }
+        public float SizeY { get; set; }
+        public float SizeZ { get; set; }
+        public Area Area { get; set; }
+        public virtual ICollection<Exhibit> Exhibits { get; set; }
+        public Slot()
+        {
+            Exhibits = new List<Exhibit>(); 
+        }
+        
     }
 
 }

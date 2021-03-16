@@ -7,8 +7,17 @@ namespace Musee_api.Models
 {
     public class Area
     {
-        public int id { get; set; }
-        public string name { get; set; }
-        public string serial { get; set; }
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string Serial { get; set; }
+        
+        public virtual ICollection<Slot> Slots { set; get; }
+        public virtual ICollection<Activity> Activities { set; get; }
+
+        public Area()
+        {
+            Activities = new List<Activity>();
+            Slots = new List<Slot>();
+        }
     }
 }

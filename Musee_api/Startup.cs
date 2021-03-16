@@ -46,6 +46,8 @@ namespace Musee_api
             {
                 endpoints.MapControllers();
             });
+      
         }
+
     }
 }

@@ -10,5 +10,13 @@ namespace Musee_api.Models
         public int id { get; set; }
         public string type { get; set; }
         public string description { get; set; }
+        
+        public virtual ICollection<Exhibit> Exhibits { get; set; }
+        public virtual ICollection<Activity> Activities { get; set; }
+        public Tag()
+        {
+            Exhibits = new List<Exhibit>();
+            Activities = new List<Activity>();
+        }
     }
 }
