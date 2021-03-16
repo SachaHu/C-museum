@@ -12,4 +12,6 @@ namespace Musee_api.Models
         public float size_X { get; set; }
         public float size_Y { get; set; }
         public float size_Z { get; set; }
+    }
+
 }
