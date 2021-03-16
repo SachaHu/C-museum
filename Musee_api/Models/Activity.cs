@@ -7,12 +7,16 @@ namespace Musee_api.Models
 {
     public class Activity
     {
-        public int id { get; set; }
-        public DateTime start_date{get;set;}
-        public DateTime end_date { get; set; }
+        public int Id { get; set; }
+        public DateTime StartDate{get;set;}
+        public DateTime EndDate { get; set; }
 
-        public string name { get; set; }
-        public string description { get; set; }
-        public int limit { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public int Limit { get; set; }
+        
+        public virtual ICollection<Tag> Tags { get; set; }
+        public virtual ICollection<User> Users { get; set; }
+        public virtual ICollection<Area> Areas { get; set; }
     }
 }
