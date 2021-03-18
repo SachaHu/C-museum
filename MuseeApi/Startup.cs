@@ -55,7 +55,7 @@ namespace MuseeApi
             {
                 var context = serviceScope.ServiceProvider.GetRequiredService<MuseeApiContext>();
                 //context.Database.EnsureDeleted();
-                //context.Database.EnsureCreated();
+                context.Database.EnsureCreated();
             }
         }
     }
