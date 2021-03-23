@@ -5154,26 +5154,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\miska\\.nuget\\packages\\": {},
-    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\12904\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\repo\\C-museum\\MuseeApi\\MuseeApi.csproj",
+      "projectUniqueName": "E:\\C#\\workspace\\Musee\\C-museum new\\C-museum\\MuseeApi\\MuseeApi.csproj",
       "projectName": "MuseeApi",
-      "projectPath": "F:\\repo\\C-museum\\MuseeApi\\MuseeApi.csproj",
-      "packagesPath": "C:\\Users\\miska\\.nuget\\packages\\",
-      "outputPath": "F:\\repo\\C-museum\\MuseeApi\\obj\\",
+      "projectPath": "E:\\C#\\workspace\\Musee\\C-museum new\\C-museum\\MuseeApi\\MuseeApi.csproj",
+      "packagesPath": "C:\\Users\\12904\\.nuget\\packages\\",
+      "outputPath": "E:\\C#\\workspace\\Musee\\C-museum new\\C-museum\\MuseeApi\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\miska\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\12904\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5260,8 +5253,16 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "读取缓存文件 E:\\C#\\workspace\\Musee\\C-museum new\\C-museum\\MuseeApi\\obj\\project.nuget.cache 时遇到问题: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

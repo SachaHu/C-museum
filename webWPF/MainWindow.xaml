@@ -1,0 +1,36 @@
+﻿<Window x:Class="webWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:webWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="ImageButton" Margin="165,149,0,225" HorizontalAlignment="Left" Width="142" Click="ImageButton_Click">
+            <StackPanel Orientation="Horizontal" Width="195">
+                <TextBlock Text="Introduction"  RenderTransformOrigin="-0.448,0.615" FontSize="20"/>
+            </StackPanel>
+        </Button>
+        <Button x:Name="ImageButton_Copy" Margin="165,239,0,135" HorizontalAlignment="Left" Width="142">
+            <StackPanel Orientation="Horizontal" Width="111">
+                <TextBlock Text="Activities"  RenderTransformOrigin="-0.448,0.615" FontSize="20"/>
+            </StackPanel>
+        </Button>
+        <Button x:Name="ImageButton_Copy1" Margin="165,327,0,47" HorizontalAlignment="Left" Width="142">
+            <StackPanel Orientation="Horizontal" Width="235">
+                <TextBlock Text="Exhibits"  RenderTransformOrigin="-0.448,0.615" FontSize="20" Width="213"/>
+            </StackPanel>
+        </Button>
+        <Button x:Name="ImageButton_Copy2" Margin="616,37,0,337" HorizontalAlignment="Left" Width="142">
+            <StackPanel Orientation="Horizontal" Width="112">
+                <TextBlock Text="Login"  RenderTransformOrigin="-0.448,0.615" FontSize="20" Width="128"/>
+            </StackPanel>
+        </Button>
+        <Button x:Name="ImageButton_Copy3" Margin="451,37,0,337" HorizontalAlignment="Left" Width="142">
+            <StackPanel Orientation="Horizontal" Width="112">
+                <TextBlock Text="Register"  RenderTransformOrigin="-0.448,0.615" FontSize="20" Width="128"/>
+            </StackPanel>
+        </Button>
+    </Grid>
+</Window>
