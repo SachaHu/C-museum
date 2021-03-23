@@ -11,7 +11,7 @@ namespace MuseeApi.Models
         public string Type { get; set; }
         public string Description { get; set; }
         
-        public virtual ICollection<Exhibit> Exhibits { get; set; }
-        public virtual ICollection<Activity> Activities { get; set; }
+        //public virtual ICollection<ExhibitTag> ExhibitTags { get; set; }
+        //public virtual ICollection<ActivityTag> ActivityTags { get; set; }
     }
 }

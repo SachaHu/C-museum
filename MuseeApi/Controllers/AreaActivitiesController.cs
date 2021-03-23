@@ -25,7 +25,7 @@ namespace MuseeApi.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<AreaActivity>>> GetAreaActivities()
         {
-            return await _context.AreaActivities.ToListAsync();
+            return await _context.AreaActivities.Include("Area").Include("Activity").ToListAsync();
         }
 
         // GET: api/AreaActivities/5

@@ -25,7 +25,7 @@ namespace MuseeApi.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<UserActivity>>> GetUserActivities()
         {
-            return await _context.UserActivities.ToListAsync();
+            return await _context.UserActivities.Include("User").Include("Activity").ToListAsync();
         }
 
         // GET: api/UserActivities/5

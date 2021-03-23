@@ -12,6 +12,6 @@ namespace MuseeApi.Models
         public string Serial { get; set; }
         
         public virtual ICollection<Slot> Slots { set; get; }
-        public virtual ICollection<Activity> Activities { set; get; }
+        public virtual ICollection<AreaActivity> AreaActivities { set; get; }
     }
 }

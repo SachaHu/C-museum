@@ -25,7 +25,7 @@ namespace MuseeApi.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ActivityTag>>> GetActivityTags()
         {
-            return await _context.ActivityTags.ToListAsync();
+            return await _context.ActivityTags.Include("Activity").Include("Tag").ToListAsync();
         }
 
         // GET: api/ActivityTags/5

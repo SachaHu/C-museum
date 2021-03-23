@@ -13,8 +13,8 @@ namespace MuseeApi.Models
         public float SizeX { get; set; }
         public float SizeY { get; set; }
         public float SizeZ {get;set;}
-        public int? SlotId { get; set; }
-        public Slot Slot { get; set; }
-        public virtual ICollection<Tag> Tags { get; set; }
+        public virtual int? SlotId { get; set; }
+        public virtual Slot Slot { get; set; }
+        //public ICollection<ExhibitTag> ExhibitTags { get; set; }
     }
 }
