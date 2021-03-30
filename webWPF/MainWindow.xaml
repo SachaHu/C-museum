@@ -7,27 +7,27 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="ImageButton" Margin="165,149,0,225" HorizontalAlignment="Left" Width="142" Click="ImageButton_Click">
+        <Button x:Name="ImageButton" Margin="165,149,0,225" HorizontalAlignment="Left" Width="142" Click="ButtonIntroduction_Click" >
             <StackPanel Orientation="Horizontal" Width="195">
                 <TextBlock Text="Introduction"  RenderTransformOrigin="-0.448,0.615" FontSize="20"/>
             </StackPanel>
         </Button>
-        <Button x:Name="ImageButton_Copy" Margin="165,239,0,135" HorizontalAlignment="Left" Width="142">
+        <Button x:Name="ButtonAct" Margin="165,239,0,135" HorizontalAlignment="Left" Width="142" Click="ButtonActivity_Click">
             <StackPanel Orientation="Horizontal" Width="111">
                 <TextBlock Text="Activities"  RenderTransformOrigin="-0.448,0.615" FontSize="20"/>
             </StackPanel>
         </Button>
-        <Button x:Name="ImageButton_Copy1" Margin="165,327,0,47" HorizontalAlignment="Left" Width="142">
+        <Button x:Name="ButtonExhibit" Margin="165,327,0,47" HorizontalAlignment="Left" Width="142" Click="ButtonExhibit_Click">
             <StackPanel Orientation="Horizontal" Width="235">
                 <TextBlock Text="Exhibits"  RenderTransformOrigin="-0.448,0.615" FontSize="20" Width="213"/>
             </StackPanel>
         </Button>
-        <Button x:Name="ImageButton_Copy2" Margin="616,37,0,337" HorizontalAlignment="Left" Width="142">
+        <Button x:Name="ButtonLogin" Margin="616,37,0,337" HorizontalAlignment="Left" Width="142" Click="ButtonLogin_Click">
             <StackPanel Orientation="Horizontal" Width="112">
                 <TextBlock Text="Login"  RenderTransformOrigin="-0.448,0.615" FontSize="20" Width="128"/>
             </StackPanel>
         </Button>
-        <Button x:Name="ImageButton_Copy3" Margin="451,37,0,337" HorizontalAlignment="Left" Width="142">
+        <Button x:Name="ButtonRegister" Margin="451,37,0,337" HorizontalAlignment="Left" Width="142" Click="ButtonRegister_Click" >
             <StackPanel Orientation="Horizontal" Width="112">
                 <TextBlock Text="Register"  RenderTransformOrigin="-0.448,0.615" FontSize="20" Width="128"/>
             </StackPanel>

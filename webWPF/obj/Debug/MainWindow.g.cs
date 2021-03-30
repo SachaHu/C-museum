@@ -51,7 +51,7 @@ namespace webWPF {
         
         #line 15 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.Button ButtonAct;
+        internal System.Windows.Controls.Button ImageButton_Copy;
         
         #line default
         #line hidden
@@ -59,7 +59,7 @@ namespace webWPF {
         
         #line 20 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.Button ButtonExhibit;
+        internal System.Windows.Controls.Button ImageButton_Copy1;
         
         #line default
         #line hidden
@@ -67,7 +67,7 @@ namespace webWPF {
         
         #line 25 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.Button ButtonLogin;
+        internal System.Windows.Controls.Button ImageButton_Copy2;
         
         #line default
         #line hidden
@@ -75,7 +75,7 @@ namespace webWPF {
         
         #line 30 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.Button ButtonRegister;
+        internal System.Windows.Controls.Button ButtonLogin;
         
         #line default
         #line hidden
@@ -112,45 +112,21 @@ namespace webWPF {
             {
             case 1:
             this.ImageButton = ((System.Windows.Controls.Button)(target));
-            
-            #line 10 "..\..\MainWindow.xaml"
-            this.ImageButton.Click += new System.Windows.RoutedEventHandler(this.ButtonIntroduction_Click);
-            
-            #line default
-            #line hidden
             return;
             case 2:
-            this.ButtonAct = ((System.Windows.Controls.Button)(target));
-            
-            #line 15 "..\..\MainWindow.xaml"
-            this.ButtonAct.Click += new System.Windows.RoutedEventHandler(this.ButtonActivity_Click);
-            
-            #line default
-            #line hidden
+            this.ImageButton_Copy = ((System.Windows.Controls.Button)(target));
             return;
             case 3:
-            this.ButtonExhibit = ((System.Windows.Controls.Button)(target));
-            
-            #line 20 "..\..\MainWindow.xaml"
-            this.ButtonExhibit.Click += new System.Windows.RoutedEventHandler(this.ButtonExhibit_Click);
-            
-            #line default
-            #line hidden
+            this.ImageButton_Copy1 = ((System.Windows.Controls.Button)(target));
             return;
             case 4:
-            this.ButtonLogin = ((System.Windows.Controls.Button)(target));
-            
-            #line 25 "..\..\MainWindow.xaml"
-            this.ButtonLogin.Click += new System.Windows.RoutedEventHandler(this.ButtonLogin_Click);
-            
-            #line default
-            #line hidden
+            this.ImageButton_Copy2 = ((System.Windows.Controls.Button)(target));
             return;
             case 5:
-            this.ButtonRegister = ((System.Windows.Controls.Button)(target));
+            this.ButtonLogin = ((System.Windows.Controls.Button)(target));
             
             #line 30 "..\..\MainWindow.xaml"
-            this.ButtonRegister.Click += new System.Windows.RoutedEventHandler(this.ButtonRegister_Click);
+            this.ButtonLogin.Click += new System.Windows.RoutedEventHandler(this.ButtonLogin_Click);
             
             #line default
             #line hidden

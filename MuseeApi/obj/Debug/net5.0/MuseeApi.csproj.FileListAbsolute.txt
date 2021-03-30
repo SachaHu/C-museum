@@ -320,3 +320,4 @@ E:\C#\workspace\Musee\C-museum new\C-museum\MuseeApi\obj\Debug\net5.0\ref\MuseeA
 E:\C#\workspace\Musee\C-museum new\C-museum\MuseeApi\obj\Debug\net5.0\MuseeApi.pdb
 E:\C#\workspace\Musee\C-museum new\C-museum\MuseeApi\obj\Debug\net5.0\MuseeApi.genruntimeconfig.cache
 >>>>>>> Stashed changes
+E:\C#\workspace\Musee\C-museum new\C-museum\MuseeApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll

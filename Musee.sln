@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MuseeApi", "MuseeApi\MuseeApi.csproj", "{21ED819A-671B-472F-9E12-0F8DEBE036B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MuseeApi", "MuseeApi\MuseeApi.csproj", "{21ED819A-671B-472F-9E12-0F8DEBE036B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webWPF", "webWPF\webWPF.csproj", "{AFFA67B2-C659-454C-87C3-8C805710B59A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{21ED819A-671B-472F-9E12-0F8DEBE036B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21ED819A-671B-472F-9E12-0F8DEBE036B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21ED819A-671B-472F-9E12-0F8DEBE036B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFFA67B2-C659-454C-87C3-8C805710B59A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFFA67B2-C659-454C-87C3-8C805710B59A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFFA67B2-C659-454C-87C3-8C805710B59A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFFA67B2-C659-454C-87C3-8C805710B59A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
