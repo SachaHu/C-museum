@@ -1,5 +1,4 @@
-﻿using System;
-namespace MuseeApi.Models
+﻿namespace MuseeApi.Models
 {
     public class ActivityTag
     {
@@ -7,6 +6,6 @@ namespace MuseeApi.Models
         public Activity Activity { get; set; }
         public int TagId { get; set; }
         public Tag Tag { get; set; }
-        
+
     }
 }

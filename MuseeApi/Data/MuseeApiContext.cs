@@ -3,14 +3,14 @@ using MuseeApi.Models;
 
 namespace MuseeApi.Data
 {
-    public class MuseeApiContext:DbContext
+    public class MuseeApiContext : DbContext
     {
         public MuseeApiContext(DbContextOptions<MuseeApiContext> options)
             : base(options)
         {
-            
+
         }
-        
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Area>().HasMany<Slot>(a => a.Slots)
@@ -19,10 +19,10 @@ namespace MuseeApi.Data
             modelBuilder.Entity<Slot>().HasMany<Exhibit>(s => s.Exhibits)
                 .WithOne(e => e.Slot).HasForeignKey(e => e.SlotId)
                 .OnDelete(DeleteBehavior.SetNull);
-            modelBuilder.Entity<ActivityTag>().HasKey(at => new {at.ActivityId, at.TagId});
-            modelBuilder.Entity<ExhibitTag>().HasKey(et => new {et.ExhibitId, et.TagId});
-            modelBuilder.Entity<AreaActivity>().HasKey(aa => new {aa.AreaId, aa.ActivityId});
-            modelBuilder.Entity<UserActivity>().HasKey(ua => new {ua.UserId, ua.ActivityId});
+            modelBuilder.Entity<ActivityTag>().HasKey(at => new { at.ActivityId, at.TagId });
+            modelBuilder.Entity<ExhibitTag>().HasKey(et => new { et.ExhibitId, et.TagId });
+            modelBuilder.Entity<AreaActivity>().HasKey(aa => new { aa.AreaId, aa.ActivityId });
+            modelBuilder.Entity<UserActivity>().HasKey(ua => new { ua.UserId, ua.ActivityId });
 
         }
 

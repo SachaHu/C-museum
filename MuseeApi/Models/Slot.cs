@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace MuseeApi.Models
 {
@@ -15,7 +12,7 @@ namespace MuseeApi.Models
         public int? SlotId { get; set; }
         public Area Area { get; set; }
         public virtual ICollection<Exhibit> Exhibits { get; set; }
-        
+
     }
 
 }
