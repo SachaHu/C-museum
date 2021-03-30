@@ -14,6 +14,11 @@ namespace MuseeApi.Models
         public string Name { get; set; }
         public string Description { get; set; }
         public int Limit { get; set; }
+
+        public bool validate()
+        {
+            return EndDate > StartDate;
+        }
         
         //public virtual ICollection<ActivityTag> ActivityTags { get; set; }
         //public virtual ICollection<UserActivity> UserActivities { get; set; }

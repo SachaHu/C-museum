@@ -16,5 +16,7 @@ namespace MuseeApi.Models
         public virtual int? SlotId { get; set; }
         public virtual Slot Slot { get; set; }
         //public ICollection<ExhibitTag> ExhibitTags { get; set; }
+
+
     }
 }
