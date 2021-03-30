@@ -4,6 +4,6 @@
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup>
-    <ActiveDebugProfile>Musee_api</ActiveDebugProfile>
+    <ActiveDebugProfile>MuseeApi</ActiveDebugProfile>
   </PropertyGroup>
 </Project>

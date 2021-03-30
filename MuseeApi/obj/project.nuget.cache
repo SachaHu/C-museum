@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "t66lOUzhZ2uRYeLIz770iiRnvJCXWBPO7tyeR3Lv7agWIkQvRRlrNFYbLm4vPhFlO+hh5ZhPMULzmMFPlb37Xw==",
+  "dgSpecHash": "HJamyofeJ1khE+hHXFjjE/uq/O9iAuT0hqLc5dvz5PFJvhqt0gbmqbru/G9LDbtMEHd4bGqqkuKbIJjH9hrt9Q==",
   "success": true,
   "projectFilePath": "E:\\C#\\workspace\\Musee\\C-museum new\\C-museum\\MuseeApi\\MuseeApi.csproj",
   "expectedPackageFiles": [
@@ -19,12 +19,14 @@
     "C:\\Users\\12904\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\12904\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.1\\microsoft.data.sqlclient.2.1.1.nupkg.sha512",
     "C:\\Users\\12904\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
+    "C:\\Users\\12904\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.0-preview.2.21154.2\\microsoft.data.sqlite.core.6.0.0-preview.2.21154.2.nupkg.sha512",
     "C:\\Users\\12904\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.0-preview.2.21154.2\\microsoft.entityframeworkcore.6.0.0-preview.2.21154.2.nupkg.sha512",
     "C:\\Users\\12904\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.0-preview.2.21154.2\\microsoft.entityframeworkcore.abstractions.6.0.0-preview.2.21154.2.nupkg.sha512",
     "C:\\Users\\12904\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.0-preview.2.21154.2\\microsoft.entityframeworkcore.analyzers.6.0.0-preview.2.21154.2.nupkg.sha512",
     "C:\\Users\\12904\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.0-preview.2.21154.2\\microsoft.entityframeworkcore.design.6.0.0-preview.2.21154.2.nupkg.sha512",
-    "C:\\Users\\12904\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\6.0.0-preview.2.21154.2\\microsoft.entityframeworkcore.inmemory.6.0.0-preview.2.21154.2.nupkg.sha512",
     "C:\\Users\\12904\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.0-preview.2.21154.2\\microsoft.entityframeworkcore.relational.6.0.0-preview.2.21154.2.nupkg.sha512",
+    "C:\\Users\\12904\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\6.0.0-preview.2.21154.2\\microsoft.entityframeworkcore.sqlite.6.0.0-preview.2.21154.2.nupkg.sha512",
+    "C:\\Users\\12904\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\6.0.0-preview.2.21154.2\\microsoft.entityframeworkcore.sqlite.core.6.0.0-preview.2.21154.2.nupkg.sha512",
     "C:\\Users\\12904\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.0-preview.2.21154.2\\microsoft.entityframeworkcore.sqlserver.6.0.0-preview.2.21154.2.nupkg.sha512",
     "C:\\Users\\12904\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\6.0.0-preview.2.21154.2\\microsoft.entityframeworkcore.tools.6.0.0-preview.2.21154.2.nupkg.sha512",
     "C:\\Users\\12904\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0-preview.2.21154.6\\microsoft.extensions.caching.abstractions.6.0.0-preview.2.21154.6.nupkg.sha512",
@@ -32,6 +34,7 @@
     "C:\\Users\\12904\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0-preview.2.21154.6\\microsoft.extensions.configuration.abstractions.6.0.0-preview.2.21154.6.nupkg.sha512",
     "C:\\Users\\12904\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0-preview.2.21154.6\\microsoft.extensions.dependencyinjection.6.0.0-preview.2.21154.6.nupkg.sha512",
     "C:\\Users\\12904\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0-preview.2.21154.6\\microsoft.extensions.dependencyinjection.abstractions.6.0.0-preview.2.21154.6.nupkg.sha512",
+    "C:\\Users\\12904\\.nuget\\packages\\microsoft.extensions.dependencymodel\\6.0.0-preview.2.21154.6\\microsoft.extensions.dependencymodel.6.0.0-preview.2.21154.6.nupkg.sha512",
     "C:\\Users\\12904\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0-preview.2.21154.6\\microsoft.extensions.logging.6.0.0-preview.2.21154.6.nupkg.sha512",
     "C:\\Users\\12904\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0-preview.2.21154.6\\microsoft.extensions.logging.abstractions.6.0.0-preview.2.21154.6.nupkg.sha512",
     "C:\\Users\\12904\\.nuget\\packages\\microsoft.extensions.options\\6.0.0-preview.2.21154.6\\microsoft.extensions.options.6.0.0-preview.2.21154.6.nupkg.sha512",
@@ -55,6 +58,10 @@
     "C:\\Users\\12904\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\12904\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\12904\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\12904\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.5-pre20210119130047\\sqlitepclraw.bundle_e_sqlite3.2.0.5-pre20210119130047.nupkg.sha512",
+    "C:\\Users\\12904\\.nuget\\packages\\sqlitepclraw.core\\2.0.5-pre20210119130047\\sqlitepclraw.core.2.0.5-pre20210119130047.nupkg.sha512",
+    "C:\\Users\\12904\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.5-pre20210119130047\\sqlitepclraw.lib.e_sqlite3.2.0.5-pre20210119130047.nupkg.sha512",
+    "C:\\Users\\12904\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.0.5-pre20210119130047\\sqlitepclraw.provider.dynamic_cdecl.2.0.5-pre20210119130047.nupkg.sha512",
     "C:\\Users\\12904\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\12904\\.nuget\\packages\\system.collections.immutable\\6.0.0-preview.2.21154.6\\system.collections.immutable.6.0.0-preview.2.21154.6.nupkg.sha512",
     "C:\\Users\\12904\\.nuget\\packages\\system.componentmodel.annotations\\6.0.0-preview.2.21154.6\\system.componentmodel.annotations.6.0.0-preview.2.21154.6.nupkg.sha512",
@@ -96,18 +103,12 @@
     "C:\\Users\\12904\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
     "C:\\Users\\12904\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
     "C:\\Users\\12904\\.nuget\\packages\\system.text.encoding.codepages\\4.7.0\\system.text.encoding.codepages.4.7.0.nupkg.sha512",
-    "C:\\Users\\12904\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512",
+    "C:\\Users\\12904\\.nuget\\packages\\system.text.encodings.web\\6.0.0-preview.2.21154.6\\system.text.encodings.web.6.0.0-preview.2.21154.6.nupkg.sha512",
+    "C:\\Users\\12904\\.nuget\\packages\\system.text.json\\6.0.0-preview.2.21154.6\\system.text.json.6.0.0-preview.2.21154.6.nupkg.sha512",
     "C:\\Users\\12904\\.nuget\\packages\\system.threading\\4.3.0\\system.threading.4.3.0.nupkg.sha512",
     "C:\\Users\\12904\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\12904\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\12904\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "读取缓存文件 E:\\C#\\workspace\\Musee\\C-museum new\\C-museum\\MuseeApi\\obj\\project.nuget.cache 时遇到问题: Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

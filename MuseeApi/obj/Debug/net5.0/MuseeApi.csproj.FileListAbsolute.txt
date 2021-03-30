@@ -19,7 +19,6 @@ F:\repo\C-museum\MuseeApi\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
 F:\repo\C-museum\MuseeApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
 F:\repo\C-museum\MuseeApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 F:\repo\C-museum\MuseeApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
-F:\repo\C-museum\MuseeApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
 F:\repo\C-museum\MuseeApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
 F:\repo\C-museum\MuseeApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 F:\repo\C-museum\MuseeApi\bin\Debug\net5.0\Microsoft.Extensions.Caching.Abstractions.dll
@@ -136,8 +135,6 @@ F:\repo\C-museum\MuseeApi\obj\Debug\net5.0\MuseeApi.dll
 F:\repo\C-museum\MuseeApi\obj\Debug\net5.0\ref\MuseeApi.dll
 F:\repo\C-museum\MuseeApi\obj\Debug\net5.0\MuseeApi.pdb
 F:\repo\C-museum\MuseeApi\obj\Debug\net5.0\MuseeApi.genruntimeconfig.cache
-<<<<<<< Updated upstream
-=======
 F:\repo\C-museum\MuseeApi\bin\Debug\net5.0\Microsoft.Data.Sqlite.dll
 F:\repo\C-museum\MuseeApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Sqlite.dll
 F:\repo\C-museum\MuseeApi\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
@@ -319,5 +316,3 @@ E:\C#\workspace\Musee\C-museum new\C-museum\MuseeApi\obj\Debug\net5.0\MuseeApi.d
 E:\C#\workspace\Musee\C-museum new\C-museum\MuseeApi\obj\Debug\net5.0\ref\MuseeApi.dll
 E:\C#\workspace\Musee\C-museum new\C-museum\MuseeApi\obj\Debug\net5.0\MuseeApi.pdb
 E:\C#\workspace\Musee\C-museum new\C-museum\MuseeApi\obj\Debug\net5.0\MuseeApi.genruntimeconfig.cache
->>>>>>> Stashed changes
-E:\C#\workspace\Musee\C-museum new\C-museum\MuseeApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
