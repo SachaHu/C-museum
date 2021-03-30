@@ -50,11 +50,11 @@
               "target": "Package",
               "version": "[6.0.0-preview.2.21154.2, )"
             },
-            "Microsoft.EntityFrameworkCore.InMemory": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[6.0.0-preview.2.21154.2, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[6.0.0-preview.2.21154.2, )"
             },

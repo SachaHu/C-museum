@@ -20,7 +20,8 @@ namespace MuseeApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<MuseeApiContext>(opt
-                => opt.UseInMemoryDatabase("Musee"));
+                => opt.UseSqlServer(Configuration.GetConnectionString("MuseeApiContext")));
+            ;
             services.AddControllers();
         }
 
@@ -42,6 +43,12 @@ namespace MuseeApi
             {
                 endpoints.MapControllers();
             });
+            using (var serviceScope = app.ApplicationServices.GetService<IServiceScopeFactory>().CreateScope())
+            {
+                var context = serviceScope.ServiceProvider.GetRequiredService<MuseeApiContext>();
+                //context.Database.EnsureDeleted();
+                context.Database.EnsureCreated();
+            }
         }
     }
 }

@@ -14,7 +14,7 @@ namespace MuseeApi.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Area>().HasMany<Slot>(a => a.Slots)
-                .WithOne(s => s.Area).HasForeignKey(s => s.SlotId)
+                .WithOne(s => s.Area).HasForeignKey(s => s.AreaId)
                 .OnDelete(DeleteBehavior.SetNull);
             modelBuilder.Entity<Slot>().HasMany<Exhibit>(s => s.Exhibits)
                 .WithOne(e => e.Slot).HasForeignKey(e => e.SlotId)

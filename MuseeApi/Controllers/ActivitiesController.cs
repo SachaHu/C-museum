@@ -45,6 +45,7 @@ namespace MuseeApi.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> PutActivity(int id, Activity activity)
         {
+            if (!activity.validate()) return BadRequest("EndDate prior to StartDate");
             if (id != activity.Id)
             {
                 return BadRequest();
@@ -76,10 +77,11 @@ namespace MuseeApi.Controllers
         [HttpPost]
         public async Task<ActionResult<Activity>> PostActivity(Activity activity)
         {
+            if (!activity.validate()) return BadRequest("EndDate prior to StartDate.");
             _context.Activities.Add(activity);
             await _context.SaveChangesAsync();
+            return CreatedAtAction("GetActivity", new {id = activity.Id}, activity);
 
-            return CreatedAtAction("GetActivity", new { id = activity.Id }, activity);
         }
 
         // DELETE: api/Activities/5

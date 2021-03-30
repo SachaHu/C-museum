@@ -13,8 +13,13 @@ namespace MuseeApi.Models
         public string Description { get; set; }
         public int Limit { get; set; }
 
-        public virtual IList<Tag> Tags { get; set; }
-        public virtual ICollection<User> Users { get; set; }
-        public virtual ICollection<Area> Areas { get; set; }
+        public bool validate()
+        {
+            return EndDate > StartDate;
+        }
+        
+        //public virtual ICollection<ActivityTag> ActivityTags { get; set; }
+        //public virtual ICollection<UserActivity> UserActivities { get; set; }
+        //public virtual ICollection<AreaActivity> AreaActivities { get; set; }
     }
 }
