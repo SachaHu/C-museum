@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="ActivityInfo.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ActivityPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CatePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Conso.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ExhibitPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="HallsPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TagAjout.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TagInfo.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="ActivityInfo.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ActivityPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CatePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Conso.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ExhibitPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="HallsPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TagAjout.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TagInfo.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

@@ -12,31 +12,32 @@ namespace webWPF
             InitializeComponent();
         }
 
-        private void ButtonLogin_Click(object sender, RoutedEventArgs e)
+        private void BtLogin_Click(object sender, RoutedEventArgs e)
         {
-            Login login = new Login();
-            login.ShowDialog();
-        }
+            if (TbLogin.Text.Length >0)
+            {
+                if (PbPassword.Password.Length > 3)
+                {
+                    if (TbLogin.Text == "root" && PbPassword.Password == "root")
+                    {
 
-        private void ButtonRegister_Click(object sender, RoutedEventArgs e)
-        {
-            Register register = new Register();
-            register.ShowDialog();
-        }
-        private void ButtonIntroduction_Click(object sender, RoutedEventArgs e)
-        {
-            Introduction introduction = new Introduction();
-            introduction.ShowDialog();
-        }
+                        Conso conso = new Conso();
+                        conso.Show();
+                     
+                        this.Close();
 
-        private void ButtonActivity_Click(object sender, RoutedEventArgs e)
-        {
-            ActivityPage activity = new ActivityPage();
-            activity.ShowDialog();
-        }
-        private void ButtonExhibit_Click(object sender, RoutedEventArgs e{
-            ExhibitPage exhibitPage = new ExhibitPage();
-            exhibitPage.ShowDialog();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Information ne sont pas correctes", "Erreur", MessageBoxButton.OK, MessageBoxImage.Error);
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Information ne sont pas correctes", "Erreur", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
+            }
+            
         }
     }
 }

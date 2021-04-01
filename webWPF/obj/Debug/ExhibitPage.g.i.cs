@@ -40,6 +40,14 @@ namespace webWPF {
     /// </summary>
     public partial class ExhibitPage : System.Windows.Window, System.Windows.Markup.IComponentConnector {
         
+        
+        #line 9 "..\..\ExhibitPage.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.StackPanel Sp;
+        
+        #line default
+        #line hidden
+        
         private bool _contentLoaded;
         
         /// <summary>
@@ -68,6 +76,12 @@ namespace webWPF {
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Maintainability", "CA1502:AvoidExcessiveComplexity")]
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1800:DoNotCastUnnecessarily")]
         void System.Windows.Markup.IComponentConnector.Connect(int connectionId, object target) {
+            switch (connectionId)
+            {
+            case 1:
+            this.Sp = ((System.Windows.Controls.StackPanel)(target));
+            return;
+            }
             this._contentLoaded = true;
         }
     }

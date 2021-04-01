@@ -10,6 +10,7 @@ namespace webWPF
         public ExhibitPage()
         {
             InitializeComponent();
+            
         }
     }
 }

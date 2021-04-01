@@ -28,8 +28,11 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.0-preview.2.21161.1" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore" Version="6.0.0-preview.2.21161.1" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Utils" Version="6.0.0-preview.2.21161.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
 
   </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
 
 
 </Project>

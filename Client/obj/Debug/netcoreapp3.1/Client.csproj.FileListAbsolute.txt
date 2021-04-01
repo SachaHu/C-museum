@@ -1,0 +1,10 @@
+E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\netcoreapp3.1\Client.csprojAssemblyReference.cache
+E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\netcoreapp3.1\ActivityPage.g.cs
+E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\netcoreapp3.1\CatePage.g.cs
+E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\netcoreapp3.1\Conso.g.cs
+E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\netcoreapp3.1\ExhibitPage.g.cs
+E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\netcoreapp3.1\HallsPage.g.cs
+E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\netcoreapp3.1\App.g.cs
+E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\netcoreapp3.1\Client_MarkupCompile.cache
+E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\netcoreapp3.1\Client_MarkupCompile.lref

@@ -5,32 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:webWPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Login" Height="450" Width="800">
     <Grid>
-        <Button x:Name="ImageButton" Margin="165,149,0,225" HorizontalAlignment="Left" Width="142" Click="ButtonIntroduction_Click" >
-            <StackPanel Orientation="Horizontal" Width="195">
-                <TextBlock Text="Introduction"  RenderTransformOrigin="-0.448,0.615" FontSize="20"/>
-            </StackPanel>
-        </Button>
-        <Button x:Name="ButtonAct" Margin="165,239,0,135" HorizontalAlignment="Left" Width="142" Click="ButtonActivity_Click">
-            <StackPanel Orientation="Horizontal" Width="111">
-                <TextBlock Text="Activities"  RenderTransformOrigin="-0.448,0.615" FontSize="20"/>
-            </StackPanel>
-        </Button>
-        <Button x:Name="ButtonExhibit" Margin="165,327,0,47" HorizontalAlignment="Left" Width="142" Click="ButtonExhibit_Click">
-            <StackPanel Orientation="Horizontal" Width="235">
-                <TextBlock Text="Exhibits"  RenderTransformOrigin="-0.448,0.615" FontSize="20" Width="213"/>
-            </StackPanel>
-        </Button>
-        <Button x:Name="ButtonLogin" Margin="616,37,0,337" HorizontalAlignment="Left" Width="142" Click="ButtonLogin_Click">
-            <StackPanel Orientation="Horizontal" Width="112">
-                <TextBlock Text="Login"  RenderTransformOrigin="-0.448,0.615" FontSize="20" Width="128"/>
-            </StackPanel>
-        </Button>
-        <Button x:Name="ButtonRegister" Margin="451,37,0,337" HorizontalAlignment="Left" Width="142" Click="ButtonRegister_Click" >
-            <StackPanel Orientation="Horizontal" Width="112">
-                <TextBlock Text="Register"  RenderTransformOrigin="-0.448,0.615" FontSize="20" Width="128"/>
-            </StackPanel>
-        </Button>
+        <Label x:Name="LbLogin" Content="UesrName" Margin="211,133,482.6,227"/>
+        <Label x:Name="LbPassword" Content="Password" Margin="222,198,501.6,189"/>
+        <TextBox x:Name="TbLogin" HorizontalAlignment="Left" Margin="297,135,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"  Height="24"/>
+        <PasswordBox x:Name="PbPassword" HorizontalAlignment="Left" Margin="297,198,0,0" VerticalAlignment="Top" Width="120" Height="24"/>
+        <Button x:Name="BtLogin" Content="Login" HorizontalAlignment="Left" Height="18" Margin="297,256,0,0" VerticalAlignment="Top" Width="53" Click="BtLogin_Click"/>
     </Grid>
 </Window>

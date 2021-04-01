@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:webWPF"
         mc:Ignorable="d"
         Title="ExhibitPage" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+    <StackPanel x:Name="Sp" Orientation="Vertical" Margin="165,35,154.6,22">
+
+    </StackPanel>
 </Window>
