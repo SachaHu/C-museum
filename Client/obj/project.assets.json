@@ -8158,23 +8158,30 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\12904\\.nuget\\packages\\": {}
+    "C:\\Users\\miska\\.nuget\\packages\\": {},
+    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\C#\\workspace\\Musee\\C-museum new\\C-museum\\Client\\Client.csproj",
+      "projectUniqueName": "F:\\repo\\C-museum\\Client\\Client.csproj",
       "projectName": "Client",
-      "projectPath": "E:\\C#\\workspace\\Musee\\C-museum new\\C-museum\\Client\\Client.csproj",
-      "packagesPath": "C:\\Users\\12904\\.nuget\\packages\\",
-      "outputPath": "E:\\C#\\workspace\\Musee\\C-museum new\\C-museum\\Client\\obj\\",
+      "projectPath": "F:\\repo\\C-museum\\Client\\Client.csproj",
+      "packagesPath": "C:\\Users\\miska\\.nuget\\packages\\",
+      "outputPath": "F:\\repo\\C-museum\\Client\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\12904\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\miska\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5.0-windows7.0"
+        "net5.0-windows"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -8184,8 +8191,8 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "E:\\C#\\workspace\\Musee\\C-museum new\\C-museum\\MuseeApi\\MuseeApi.csproj": {
-              "projectPath": "E:\\C#\\workspace\\Musee\\C-museum new\\C-museum\\MuseeApi\\MuseeApi.csproj"
+            "F:\\repo\\C-museum\\MuseeApi\\MuseeApi.csproj": {
+              "projectPath": "F:\\repo\\C-museum\\MuseeApi\\MuseeApi.csproj"
             }
           }
         }
@@ -8230,7 +8237,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

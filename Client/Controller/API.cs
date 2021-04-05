@@ -14,7 +14,7 @@ namespace Client.Controller
         private static readonly HttpClient client = new HttpClient();
         private API()
         {
-            client.BaseAddress = new Uri("http://localhost:5000/");
+            client.BaseAddress = new Uri("https://localhost:44303/");
             client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Accept.Add(
                 new MediaTypeWithQualityHeaderValue("application/json"));
