@@ -1,29 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "F:\\repo\\C-museum\\Client\\Client.csproj": {}
+    "E:\\C#\\workspace\\Musee\\C-museum new\\C-museum\\Client\\Client.csproj": {}
   },
   "projects": {
-    "F:\\repo\\C-museum\\Client\\Client.csproj": {
+    "E:\\C#\\workspace\\Musee\\C-museum new\\C-museum\\Client\\Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\repo\\C-museum\\Client\\Client.csproj",
+        "projectUniqueName": "E:\\C#\\workspace\\Musee\\C-museum new\\C-museum\\Client\\Client.csproj",
         "projectName": "Client",
-        "projectPath": "F:\\repo\\C-museum\\Client\\Client.csproj",
-        "packagesPath": "C:\\Users\\miska\\.nuget\\packages\\",
-        "outputPath": "F:\\repo\\C-museum\\Client\\obj\\",
+        "projectPath": "E:\\C#\\workspace\\Musee\\C-museum new\\C-museum\\Client\\Client.csproj",
+        "packagesPath": "C:\\Users\\12904\\.nuget\\packages\\",
+        "outputPath": "E:\\C#\\workspace\\Musee\\C-museum new\\C-museum\\Client\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\miska\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\12904\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0-windows"
+          "net5.0-windows7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -33,8 +28,8 @@
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
             "projectReferences": {
-              "F:\\repo\\C-museum\\MuseeApi\\MuseeApi.csproj": {
-                "projectPath": "F:\\repo\\C-museum\\MuseeApi\\MuseeApi.csproj"
+              "E:\\C#\\workspace\\Musee\\C-museum new\\C-museum\\MuseeApi\\MuseeApi.csproj": {
+                "projectPath": "E:\\C#\\workspace\\Musee\\C-museum new\\C-museum\\MuseeApi\\MuseeApi.csproj"
               }
             }
           }
@@ -79,26 +74,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\repo\\C-museum\\MuseeApi\\MuseeApi.csproj": {
+    "E:\\C#\\workspace\\Musee\\C-museum new\\C-museum\\MuseeApi\\MuseeApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\repo\\C-museum\\MuseeApi\\MuseeApi.csproj",
+        "projectUniqueName": "E:\\C#\\workspace\\Musee\\C-museum new\\C-museum\\MuseeApi\\MuseeApi.csproj",
         "projectName": "MuseeApi",
-        "projectPath": "F:\\repo\\C-museum\\MuseeApi\\MuseeApi.csproj",
-        "packagesPath": "C:\\Users\\miska\\.nuget\\packages\\",
-        "outputPath": "F:\\repo\\C-museum\\MuseeApi\\obj\\",
+        "projectPath": "E:\\C#\\workspace\\Musee\\C-museum new\\C-museum\\MuseeApi\\MuseeApi.csproj",
+        "packagesPath": "C:\\Users\\12904\\.nuget\\packages\\",
+        "outputPath": "E:\\C#\\workspace\\Musee\\C-museum new\\C-museum\\MuseeApi\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\miska\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\12904\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -189,7 +179,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }
