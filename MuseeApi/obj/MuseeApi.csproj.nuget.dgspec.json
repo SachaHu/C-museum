@@ -1,20 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "E:\\C#\\workspace\\Musee\\C-museum new\\C-museum\\MuseeApi\\MuseeApi.csproj": {}
+    "F:\\repo\\C-museum\\MuseeApi\\MuseeApi.csproj": {}
   },
   "projects": {
-    "E:\\C#\\workspace\\Musee\\C-museum new\\C-museum\\MuseeApi\\MuseeApi.csproj": {
+    "F:\\repo\\C-museum\\MuseeApi\\MuseeApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\C#\\workspace\\Musee\\C-museum new\\C-museum\\MuseeApi\\MuseeApi.csproj",
+        "projectUniqueName": "F:\\repo\\C-museum\\MuseeApi\\MuseeApi.csproj",
         "projectName": "MuseeApi",
-        "projectPath": "E:\\C#\\workspace\\Musee\\C-museum new\\C-museum\\MuseeApi\\MuseeApi.csproj",
-        "packagesPath": "C:\\Users\\12904\\.nuget\\packages\\",
-        "outputPath": "E:\\C#\\workspace\\Musee\\C-museum new\\C-museum\\MuseeApi\\obj\\",
+        "projectPath": "F:\\repo\\C-museum\\MuseeApi\\MuseeApi.csproj",
+        "packagesPath": "C:\\Users\\miska\\.nuget\\packages\\",
+        "outputPath": "F:\\repo\\C-museum\\MuseeApi\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\12904\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\miska\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -105,7 +110,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

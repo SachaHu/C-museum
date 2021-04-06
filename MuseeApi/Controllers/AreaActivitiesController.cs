@@ -98,11 +98,11 @@ namespace MuseeApi.Controllers
             return CreatedAtAction("GetAreaActivity", new { id = areaActivity.AreaId }, areaActivity);
         }
 
-        // DELETE: api/AreaActivities/5
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteAreaActivity(int id)
+        // DELETE: api/AreaActivities/5&1
+        [HttpDelete("{id1}&{id2}")]
+        public async Task<IActionResult> DeleteAreaActivity(int id1, int id2)
         {
-            var areaActivity = await _context.AreaActivities.FindAsync(id);
+            var areaActivity = await _context.AreaActivities.FindAsync(id1,id2);
             if (areaActivity == null)
             {
                 return NotFound();

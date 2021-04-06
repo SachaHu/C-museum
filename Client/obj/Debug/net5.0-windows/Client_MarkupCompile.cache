@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\net5.0-windows\
+F:\repo\C-museum\Client\obj\Debug\net5.0-windows\
 Client
 none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
-E:\C#\workspace\Musee\C-museum new\C-museum\Client\App.xaml
-9128158042
+F:\repo\C-museum\Client\App.xaml
+9368902894
 
-12798127735
-358-2016984475
+12-1411323637
+358-399195958
 ActivityInfo.xaml;ActivityPage.xaml;CatePage.xaml;Conso.xaml;ExhibitPage.xaml;HallsPage.xaml;MainWindow.xaml;TagAjout.xaml;TagInfo.xaml;
 
-False
+True
 
