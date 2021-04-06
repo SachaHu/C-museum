@@ -42,6 +42,33 @@ namespace MuseeApi.Controllers
             return exhibitTag;
         }
 
+<<<<<<< Updated upstream
+=======
+        [HttpGet("filterByTag/{tagId}")]
+        public async Task<ActionResult<IEnumerable<ExhibitTag>>> GetExhibitByTag(string tagId)
+        {
+            IQueryable<ExhibitTag> queryable = _context.ExhibitTags;
+            if (!string.IsNullOrEmpty(tagId))
+            {
+                queryable = queryable.Where(et => et.TagId.Equals(int.Parse(tagId)));
+            }
+
+            return await queryable.Include("Exhibit").ToListAsync();
+        }
+        
+        [HttpGet("filterByExhibit/{exhibitId}")]
+        public async Task<ActionResult<IEnumerable<ExhibitTag>>> GetTagByExhibit(string exhibitId)
+        {
+            IQueryable<ExhibitTag> queryable = _context.ExhibitTags;
+            if (!string.IsNullOrEmpty(exhibitId))
+            {
+                queryable = queryable.Where(et => et.TagId.Equals(int.Parse(exhibitId)));
+            }
+
+            return await queryable.Include("Tag").ToListAsync();
+        }
+
+>>>>>>> Stashed changes
         // PUT: api/ExhibitTags/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
