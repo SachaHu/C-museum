@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -35,7 +36,13 @@ namespace Client
             {
                 if (PbPassword.Password.Length > 3)
                 {
-                    if (TbLogin.Text == "root" && PbPassword.Password == "root")
+                    SHA1 sha1 = new SHA1CryptoServiceProvider();
+                    byte[] bytes_in = Encoding.ASCII .GetBytes(PbPassword.Password);
+                    byte[] bytes_out = sha1.ComputeHash(bytes_in);
+                    sha1.Dispose();
+                    string result = BitConverter.ToString(bytes_out);
+                    result = result.Replace("-", "");
+                    if (TbLogin.Text == "root" && result  == "DC76E9F0C0006E8F919E0C515C66DBBA3982F785")
                     {
 
                         Conso conso = new Conso();
