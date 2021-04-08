@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:Client"
         mc:Ignorable="d"
         Title="HallsPage" Height="450" Width="800">
-    <Grid>
+    <StackPanel x:Name="spc" Orientation="Vertical" Margin="165,35,154.6,22">
+        <Button x:Name="BtnBack" Content="Back" Width="70" Click="BtnBack_Click" />
         
-    </Grid>
+    </StackPanel>
 </Window>

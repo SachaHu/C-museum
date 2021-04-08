@@ -27,6 +27,8 @@ namespace Client
         }
         public static string actNowId;
         public static string tagNowId;
+        public static string exhNowId;
+        
         private void BtLogin_Click(object sender, RoutedEventArgs e)
         {
             if (TbLogin.Text.Length > 0)

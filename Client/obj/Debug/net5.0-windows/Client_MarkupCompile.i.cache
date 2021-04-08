@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 E:\C#\workspace\Musee\C-museum new\C-museum\Client\App.xaml
-9128158042
+12-723988702
 
-142140746548
+17525291338
 358-2016984475
-ActivityInfo.xaml;ActivityPage.xaml;CatePage.xaml;Conso.xaml;ExhibitPage.xaml;HallsPage.xaml;MainWindow.xaml;TagAjout.xaml;TagInfo.xaml;
+ActivitiyPages\ActivityAjout.xaml;ActivitiyPages\ActivityInfo.xaml;ActivitiyPages\ActivityPage.xaml;Conso.xaml;ExhibitPages\ExhibitAjout.xaml;ExhibitPages\ExhibitInfo.xaml;ExhibitPages\ExhibitPage.xaml;HallsPage.xaml;MainWindow.xaml;TagPages\CatePage.xaml;TagPages\TagAjout.xaml;TagPages\TagInfo.xaml;
 
 False
 

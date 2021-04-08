@@ -21,7 +21,7 @@ namespace Client
     /// </summary>
     public partial class TagInfo : Window
     {
-        
+        private readonly ICollection<ExhibitTag> ListeExhibitsTags;
         public TagInfo()
         {
             InitializeComponent();
@@ -39,6 +39,13 @@ namespace Client
             label3.Content = "Description = " + tag.Description ;
             sp.Children.Add(label3);
 
+            ListeExhibitsTags = API.Instance.GetExhibitByTagAsync(tag.Id).Result;
+            foreach (ExhibitTag exhibitTag in ListeExhibitsTags)
+            {
+                Label label = new Label();
+                label.Content = "Exhibit : "+exhibitTag.ExhibitId.ToString()+" " + exhibitTag.Exhibit.Name.ToString () ;
+                sp.Children.Add(label);
+            }
         }
 
         private void BtBack_Click(object sender, RoutedEventArgs e)

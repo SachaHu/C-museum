@@ -1,8 +1,5 @@
 E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\net5.0-windows\Client.csprojAssemblyReference.cache
-E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\net5.0-windows\ActivityPage.g.cs
-E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\net5.0-windows\CatePage.g.cs
 E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\net5.0-windows\Conso.g.cs
-E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\net5.0-windows\ExhibitPage.g.cs
 E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\net5.0-windows\HallsPage.g.cs
 E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\net5.0-windows\MainWindow.g.cs
 E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\net5.0-windows\App.g.cs
@@ -153,12 +150,7 @@ E:\C#\workspace\Musee\C-museum new\C-museum\Client\bin\Debug\net5.0-windows\runt
 E:\C#\workspace\Musee\C-museum new\C-museum\Client\bin\Debug\net5.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 E:\C#\workspace\Musee\C-museum new\C-museum\Client\bin\Debug\net5.0-windows\MuseeApi.dll
 E:\C#\workspace\Musee\C-museum new\C-museum\Client\bin\Debug\net5.0-windows\MuseeApi.pdb
-E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\net5.0-windows\ActivityInfo.g.cs
-E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\net5.0-windows\ActivityInfo.baml
-E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\net5.0-windows\ActivityPage.baml
-E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\net5.0-windows\CatePage.baml
 E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\net5.0-windows\Conso.baml
-E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\net5.0-windows\ExhibitPage.baml
 E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\net5.0-windows\HallsPage.baml
 E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\net5.0-windows\MainWindow.baml
 E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\net5.0-windows\Client.g.resources
@@ -171,10 +163,6 @@ E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\net5.0-windows\Clie
 E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\net5.0-windows\ref\Client.dll
 E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\net5.0-windows\Client.pdb
 E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\net5.0-windows\Client.genruntimeconfig.cache
-E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\net5.0-windows\TagInfo.g.cs
-E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\net5.0-windows\TagInfo.baml
-E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\net5.0-windows\TagAjout.g.cs
-E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\net5.0-windows\TagAjout.baml
 F:\repo\C-museum\Client\bin\Debug\net5.0-windows\appsettings.Development.json
 F:\repo\C-museum\Client\bin\Debug\net5.0-windows\MuseeApi.deps.json
 F:\repo\C-museum\Client\bin\Debug\net5.0-windows\MuseeApi.runtimeconfig.json
@@ -355,3 +343,21 @@ F:\repo\C-museum\Client\obj\Debug\net5.0-windows\Client.dll
 F:\repo\C-museum\Client\obj\Debug\net5.0-windows\ref\Client.dll
 F:\repo\C-museum\Client\obj\Debug\net5.0-windows\Client.pdb
 F:\repo\C-museum\Client\obj\Debug\net5.0-windows\Client.genruntimeconfig.cache
+E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\net5.0-windows\ExhibitPages\ExhibitAjout.g.cs
+E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\net5.0-windows\ExhibitPages\ExhibitInfo.g.cs
+E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\net5.0-windows\ExhibitPages\ExhibitPage.g.cs
+E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\net5.0-windows\TagPages\CatePage.g.cs
+E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\net5.0-windows\TagPages\TagAjout.g.cs
+E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\net5.0-windows\TagPages\TagInfo.g.cs
+E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\net5.0-windows\ExhibitPages\ExhibitAjout.baml
+E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\net5.0-windows\ExhibitPages\ExhibitInfo.baml
+E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\net5.0-windows\ExhibitPages\ExhibitPage.baml
+E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\net5.0-windows\TagPages\CatePage.baml
+E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\net5.0-windows\TagPages\TagAjout.baml
+E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\net5.0-windows\TagPages\TagInfo.baml
+E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\net5.0-windows\ActivitiyPages\ActivityAjout.g.cs
+E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\net5.0-windows\ActivitiyPages\ActivityInfo.g.cs
+E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\net5.0-windows\ActivitiyPages\ActivityPage.g.cs
+E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\net5.0-windows\ActivitiyPages\ActivityAjout.baml
+E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\net5.0-windows\ActivitiyPages\ActivityInfo.baml
+E:\C#\workspace\Musee\C-museum new\C-museum\Client\obj\Debug\net5.0-windows\ActivitiyPages\ActivityPage.baml

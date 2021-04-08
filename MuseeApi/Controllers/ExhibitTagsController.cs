@@ -60,7 +60,7 @@ namespace MuseeApi.Controllers
             IQueryable<ExhibitTag> queryable = _context.ExhibitTags;
             if (!string.IsNullOrEmpty(exhibitId))
             {
-                queryable = queryable.Where(et => et.TagId.Equals(int.Parse(exhibitId)));
+                queryable = queryable.Where(et => et.ExhibitId .Equals(int.Parse(exhibitId)));
             }
 
             return await queryable.Include("Exhibit").Include("Tag").ToListAsync();

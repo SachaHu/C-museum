@@ -1,12 +1,15 @@
 ﻿
 
-FF:\repo\C-museum\Client\ActivityInfo.xaml;;
-FF:\repo\C-museum\Client\ActivityPage.xaml;;
-FF:\repo\C-museum\Client\CatePage.xaml;;
-FF:\repo\C-museum\Client\Conso.xaml;;
-FF:\repo\C-museum\Client\ExhibitPage.xaml;;
-FF:\repo\C-museum\Client\HallsPage.xaml;;
-FF:\repo\C-museum\Client\MainWindow.xaml;;
-FF:\repo\C-museum\Client\TagAjout.xaml;;
-FF:\repo\C-museum\Client\TagInfo.xaml;;
+FE:\C#\workspace\Musee\C-museum new\C-museum\Client\Conso.xaml;;
+FE:\C#\workspace\Musee\C-museum new\C-museum\Client\ExhibitPages\ExhibitAjout.xaml;;
+FE:\C#\workspace\Musee\C-museum new\C-museum\Client\ExhibitPages\ExhibitInfo.xaml;;
+FE:\C#\workspace\Musee\C-museum new\C-museum\Client\ExhibitPages\ExhibitPage.xaml;;
+FE:\C#\workspace\Musee\C-museum new\C-museum\Client\HallsPage.xaml;;
+FE:\C#\workspace\Musee\C-museum new\C-museum\Client\MainWindow.xaml;;
+FE:\C#\workspace\Musee\C-museum new\C-museum\Client\TagPages\CatePage.xaml;;
+FE:\C#\workspace\Musee\C-museum new\C-museum\Client\TagPages\TagAjout.xaml;;
+FE:\C#\workspace\Musee\C-museum new\C-museum\Client\TagPages\TagInfo.xaml;;
+FE:\C#\workspace\Musee\C-museum new\C-museum\Client\ActivitiyPages\ActivityAjout.xaml;;
+FE:\C#\workspace\Musee\C-museum new\C-museum\Client\ActivitiyPages\ActivityInfo.xaml;;
+FE:\C#\workspace\Musee\C-museum new\C-museum\Client\ActivitiyPages\ActivityPage.xaml;;
 

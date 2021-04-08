@@ -14,7 +14,7 @@ namespace Client.Controller
         private static readonly HttpClient client = new HttpClient();
         private API()
         {
-            client.BaseAddress = new Uri("https://localhost:44303/");
+            client.BaseAddress = new Uri("https://localhost:5001/");
             client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Accept.Add(
                 new MediaTypeWithQualityHeaderValue("application/json"));
@@ -37,6 +37,7 @@ namespace Client.Controller
             }
         }
 
+        //Actibity
         public async Task<ICollection<Activity>> GetActivitiesAsync()
         {
             ICollection<Activity> activities  = new List<Activity>();
@@ -49,7 +50,7 @@ namespace Client.Controller
             return activities;
         }
 
-        public async Task<Activity> GetEcurieAsync(int? id)
+        public async Task<Activity> GetActivityAsync(int? id)
         {
             Activity activity  = null;
             HttpResponseMessage response = client.GetAsync("Api/Activities/" + id).Result;
@@ -61,7 +62,7 @@ namespace Client.Controller
             return activity;
         }
 
-        public async Task<Uri> AjoutEcurieAsync(Activity activity)
+        public async Task<Uri> AjoutActivityAsync(Activity activity)
         {
             try
             {
@@ -76,7 +77,7 @@ namespace Client.Controller
             return null;
         }
 
-        public async Task<Uri> ModifEcurieAsync(Activity activity)
+        public async Task<Uri> ModifActivityAsync(Activity activity)
         {
             try
             {
@@ -92,7 +93,7 @@ namespace Client.Controller
         }
 
 
-        public async Task<Uri> SupprEcurieAsync(int id)
+        public async Task<Uri> SupprActivityAsync(int id)
         {
             try
             {
@@ -107,6 +108,7 @@ namespace Client.Controller
             return null;
         }
 
+        //Tags
         public async Task<ICollection<Tag>> GetTagsAsync()
         {
             ICollection<Tag> tags = new List<Tag>();
@@ -118,6 +120,8 @@ namespace Client.Controller
             }
             return tags;
         }
+
+
 
         public async Task<Tag> GetTagAsync(int id)
         {
@@ -177,31 +181,87 @@ namespace Client.Controller
             return null;
         }
 
-        public async Task<ICollection<Exhibit>> GetExhibitsAsync()
+        //ExhibitTag
+        public async Task<Uri> AjoutExhibitTagAsync(ExhibitTag exhibitTag )
         {
-            ICollection<Exhibit> exhibits  = new List<Exhibit>();
+            try
+            {
+                HttpResponseMessage response = await client.PostAsJsonAsync("Api/ExhibitTags", exhibitTag);
+                response.EnsureSuccessStatusCode();
+                return response.Headers.Location;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            return null;
+        }
+        public async Task<Uri> SupprExhibitTagAsync(int id1,int id2)
+        {
+            try
+            {
+                HttpResponseMessage response = await client.DeleteAsync("Api/ExhibitTags/" + id1+"&"+id2);
+                response.EnsureSuccessStatusCode();
+                return response.Headers.Location;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            return null;
+        }
+        public async Task<ICollection<ExhibitTag>> GetTagByExhibitAsync(int id)
+        {
+
+            ICollection<ExhibitTag> exhibitTags = new List<ExhibitTag>();
+            HttpResponseMessage response = client.GetAsync("Api/ExhibitTags/filterByExhibit/" + id).Result;
+            if (response.IsSuccessStatusCode)
+            {
+                var resp = await response.Content.ReadAsStringAsync();
+                exhibitTags = JsonConvert.DeserializeObject<List<ExhibitTag>>(resp);
+            }
+            return exhibitTags;
+        }
+
+        public async Task<ICollection<ExhibitTag>> GetExhibitByTagAsync(int id)
+        {
+
+            ICollection<ExhibitTag> exhibitTags = new List<ExhibitTag>();
+            HttpResponseMessage response = client.GetAsync("Api/ExhibitTags/filterByTag/" + id).Result;
+            if (response.IsSuccessStatusCode)
+            {
+                var resp = await response.Content.ReadAsStringAsync();
+                exhibitTags = JsonConvert.DeserializeObject<List<ExhibitTag>>(resp);
+            }
+            return exhibitTags;
+        }
+
+        public async Task<ICollection<MuseeApi.Models .Exhibit>> GetExhibitsAsync()
+        {
+            ICollection<MuseeApi.Models.Exhibit> exhibits  = new List<MuseeApi.Models.Exhibit>();
             HttpResponseMessage response = client.GetAsync("Api/Exhibits/").Result;
             if (response.IsSuccessStatusCode)
             {
                 var resp = await response.Content.ReadAsStringAsync();
-                exhibits  = JsonConvert.DeserializeObject<List<Exhibit>>(resp);
+                exhibits  = JsonConvert.DeserializeObject<List<MuseeApi.Models.Exhibit>>(resp);
             }
             return exhibits ;
         }
 
-        public async Task<Exhibit > GetExhibitAsync(int? id)
+        
+        public async Task<MuseeApi.Models.Exhibit> GetExhibitAsync(int? id)
         {
-            Exhibit exhibit = null;
+            MuseeApi.Models.Exhibit exhibit = null;
             HttpResponseMessage response = client.GetAsync("Api/Exhibits/" + id).Result;
             if (response.IsSuccessStatusCode)
             {
                 var resp = await response.Content.ReadAsStringAsync();
-                exhibit  = JsonConvert.DeserializeObject<Exhibit>(resp);
+                exhibit  = JsonConvert.DeserializeObject<MuseeApi.Models.Exhibit>(resp);
             }
             return exhibit;
         }
 
-        public async Task<Uri> AjoutExhibitAsync(Exhibit exhibit )
+        public async Task<Uri> AjoutExhibitAsync(MuseeApi.Models.Exhibit exhibit )
         {
             try
             {
@@ -216,7 +276,7 @@ namespace Client.Controller
             return null;
         }
 
-        public async Task<Uri> ModifExhibitAsync(Exhibit exhibit )
+        public async Task<Uri> ModifExhibitAsync(MuseeApi.Models.Exhibit exhibit )
         {
             try
             {

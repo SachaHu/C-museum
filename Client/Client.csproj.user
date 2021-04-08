@@ -7,45 +7,63 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="ActivityInfo.xaml.cs">
+    <Compile Update="ActivitiyPages\ActivityAjout.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="ActivityPage.xaml.cs">
+    <Compile Update="ActivitiyPages\ActivityInfo.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="CatePage.xaml.cs">
+    <Compile Update="ActivitiyPages\ActivityPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ExhibitPages\ExhibitAjout.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ExhibitPages\ExhibitInfo.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TagPages\CatePage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Conso.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="ExhibitPage.xaml.cs">
+    <Compile Update="ExhibitPages\ExhibitPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="HallsPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="TagAjout.xaml.cs">
+    <Compile Update="TagPages\TagAjout.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="TagInfo.xaml.cs">
+    <Compile Update="TagPages\TagInfo.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="ActivityInfo.xaml">
+    <Page Update="ActivitiyPages\ActivityAjout.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="ActivityPage.xaml">
+    <Page Update="ActivitiyPages\ActivityInfo.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="CatePage.xaml">
+    <Page Update="ActivitiyPages\ActivityPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ExhibitPages\ExhibitAjout.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ExhibitPages\ExhibitInfo.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TagPages\CatePage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Conso.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="ExhibitPage.xaml">
+    <Page Update="ExhibitPages\ExhibitPage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="HallsPage.xaml">
@@ -54,10 +72,10 @@
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="TagAjout.xaml">
+    <Page Update="TagPages\TagAjout.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="TagInfo.xaml">
+    <Page Update="TagPages\TagInfo.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
